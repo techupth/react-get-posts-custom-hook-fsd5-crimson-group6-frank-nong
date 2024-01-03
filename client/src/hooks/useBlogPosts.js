@@ -22,7 +22,7 @@ function useBlogPosts() {
     getPosts();
   }, []);
 
-  return { posts, isError, isLoading };
+  return { posts, isError, isLoading, getPosts };
 }
 
 export default useBlogPosts;
